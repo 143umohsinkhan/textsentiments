@@ -56,3 +56,4 @@ if (cluster.isMaster) {
     //Starting server on port
     app.listen(PORT, () => console.log('Server is up and running now ...'))
 }
+ 

@@ -1,0 +1,30 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "debug":"nodemon app.js 3006"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirSohel007/api-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirSohel007/api-test/issues"
+  },
+  "homepage": "https://github.com/amirSohel007/api-test#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ml5": "^0.5.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
+  }
+}

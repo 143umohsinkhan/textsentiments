@@ -11,7 +11,7 @@ const cpuCount = os.cpus().length;
 app.use(bodyParser.json());
 
 //PORT 
-const PORT = process.env.PORT || 8000
+const PORT = 80
 // Add headers
 app.use(function (req, res, next) {
 
